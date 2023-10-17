@@ -1,0 +1,2 @@
+# softuni-javascript-fundamentals
+Exercises
