@@ -1,7 +1,7 @@
 function maxSequenceOfEqualElements(arr) {
 
     let longestSeq = [];
- 
+    
     for (let i = 0; i < arr.length; i++) {
       let currNum = arr[i];
       let currentSeq = [currNum];
