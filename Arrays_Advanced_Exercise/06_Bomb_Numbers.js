@@ -4,7 +4,7 @@ function bombNumbers(nums, bombInfo) {
 
    while(nums.includes(bombNum)) {
     let index = nums.indexOf(bombNum);
-    nums.splice(index - power, power * 2 + 1, 0);
+    nums.splice(Math.max(0, index - power, power), power * 2 + 1, 0);
    }
    let sum = 0;
    for(let num of nums) {
