@@ -6,7 +6,7 @@ function simpleCalculator(a, b, operator) {
             console.log(a - b);
     } else if(operator == 'multiply') {
         console.log(a * b);
-    } else if(operator == 'devide') {
+    } else if(operator == 'divide') {
         console.log(a / b);
     }
 }
