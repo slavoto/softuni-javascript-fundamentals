@@ -1,6 +1,6 @@
 function convertToObject(JsonString) {
 
-    let object = JSON.parse(JsonString);
+    let object = JSON.parse(JsonString); // convert from String to Object
 
     for(let key in object) {
         console.log(`${key}: ${object[key]}`);
