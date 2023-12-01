@@ -1,4 +1,4 @@
-function movies(array) {
+function manageMovies(array) {
 
     let movies = [];
 
@@ -36,7 +36,7 @@ function movies(array) {
     }
 }
 
-movies([
+manageMovies([
 
     'addMovie Fast and Furious',
     
