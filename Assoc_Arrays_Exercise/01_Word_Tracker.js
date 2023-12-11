@@ -36,6 +36,16 @@ wordTracker([
     
     ]);
 
+    wordTracker([
+
+        'is the',
+        
+        'first', 'sentence', 'Here', 'is',
+        
+        'another', 'the', 'And', 'finally', 'the',
+        
+        'the', 'sentence']);
+
 // Write a function that receives an array of words and finds occurrences of given words in that sentence.
 
 // The input will come as an array of strings. The first string will contain the words you will be looking for separated by a space. 
